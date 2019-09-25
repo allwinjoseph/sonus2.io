@@ -891,6 +891,10 @@ padding-left:10px;
 {
   text-align:center;
 }
+.phone
+{
+    padding-top: 6px;
+}
 .hero
 {
 min-height: 500px;
@@ -1358,8 +1362,28 @@ display: none;
  {
     float:none;
  }
-
+ .logo img
+ {
+    display: block;
+    margin:0px auto;
+ }
+ .phone img
+ {
+    display: block;
+    margin:0px auto;
+ }
+.expert-but {
+    padding: 10px!important;
 }
+.expert-but h3
+{
+    text-align: center;
+}
+}
+
+
+
+
 
 #about2
 {
@@ -1454,5 +1478,15 @@ font-size: 24px;
 .btsec
 {
     margin-top: 10px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.btsec a:hover
+{
+    color:#fff;
+    text-decoration:none;
 }
 
